@@ -201,7 +201,7 @@ class SubmitPost extends Component {
         />
         <GooglePlacesAutocomplete
           query={{
-            key: "AIzaSyAzK43usmMeDPE_ig5c5vm0OGztkpd69-Y",
+            key: process.env.REACT_APP_GOOGLE_FIREBASE_KEY,
             language: "en", // language of the results
           }}
           onPress={this.storeLocation}
