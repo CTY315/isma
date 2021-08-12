@@ -74,7 +74,7 @@ class SubmitPost extends Component {
           this.state.latitude
         },${
           this.state.longitude
-        }&key=${"AIzaSyAzK43usmMeDPE_ig5c5vm0OGztkpd69 - Y"}`
+        }&key=${process.env.REACT_APP_GOOGLE_FIREBASE_KEY}`
       );
       // console.log("res", res);
       // res = JSON.parse(res);
